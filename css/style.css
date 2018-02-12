@@ -1,0 +1,192 @@
+/* Your custom styles */
+
+
+/*========================== banner style start here ==========================*/
+
+#banner {
+	background-image: url("../img/banner.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	padding: 170px 0;
+}
+#banner h1 {
+	color: #fff;
+}
+#banner .text-border {
+	border: 2px solid #fff;
+}
+
+/*========================== banner style ends here ==========================*/
+
+
+/*========================== portfolio style start here ==========================*/
+
+/*.galary {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.galary figure {
+	width: 33.33%;
+	padding: 10px;
+}*/
+
+.galary figure {
+	position: relative;
+	overflow: hidden;
+}
+.galary figcaption {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(256,256,256, 0.5);
+	transition: all 0.4s;
+}
+.galary figcaption h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.galary figcaption h3 a {
+	color: #8BC97C;
+	text-decoration: none; 
+}
+.galary figure:hover figcaption {
+	top: 0;
+}
+
+
+
+/*========================== portfolio style ends here ==========================*/
+
+
+
+/*========================== pricing style start here ==========================*/
+
+/*#pricing .price-card {
+	width: 25%;
+	background-color: #393939;
+	border-radius: 2%;
+	margin: px;
+	padding: 18px 0;
+	color: #fff;
+	transition: all .3s
+}
+#pricing .price-card div, h5, a {
+	padding: 10px 0;
+}
+#pricing .price-card h5 {
+	font-size: 11px;
+	border-bottom: 1px solid #fff;
+}
+#pricing .price-card .inner-row-2 {
+	margin: 0 50px;
+	margin-bottom: 10px;
+}
+#pricing .price-card .inner-row-1 {
+	border-radius: 50%;
+	border: 2px solid #fff;
+	margin: 0 50px;
+	display: inline-block;
+	padding: 25px 20px;
+	transition: all 0.3s;
+}
+#pricing .price-card a {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	color: #87D37B;
+	text-decoration: none;
+	padding: 10px 18px;
+	font-size: 14px;
+}
+#pricing .price-card:hover {
+	background-color: #87D37B;
+}
+#pricing .price-card:hover .inner-row-1 {
+	background-color: #fff;
+	color: #87D37B;
+	transition: all .3s;
+}*/
+
+
+
+
+/*========================== pricing style ends here ==========================*/
+
+
+
+
+/*========================== status style start here ==========================*/
+
+/*=== counter up===*/
+
+#status {
+	 background-image: url("../img/onu-advance-11.jpg");
+	 background-repeat:no-repeat;
+}      
+
+#status span {
+            font-size: 33px;
+            color: #fff;
+            margin-bottom: 250px;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            display: inline-block;
+            width: 24%;
+        }
+
+
+        
+        
+
+        /*@media only screen and (max-width: 1024px) {
+            span {
+                font-size: 22px;
+                margin-bottom: 200px;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            div > span {
+                font-size: 33px;
+                display: block;
+                width: 100% !important;
+                margin-bottom: 100px;
+            }
+
+            span {
+                font-size: 33px;
+            }
+        }
+*/
+
+/*===== counter up=====*/
+
+
+/*========================== status style ends here ==========================*/
+
+
+
+
+/*========================== banner style start here ==========================*/
+
+
+
+
+/*========================== banner style ends here ==========================*/
+
+
+
+
+/*========================== banner style start here ==========================*/
+
+
+
+
+/*========================== banner style ends here ==========================*/
+
